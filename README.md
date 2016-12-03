@@ -1,4 +1,4 @@
 # arithCalc
-Calculator for basic arithmetic operations
+Calculator for basic arithmetic operations.
 
 HTML, CSS, Javascript.
