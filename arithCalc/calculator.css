@@ -1,0 +1,21 @@
+﻿.screen{
+ width: 120px;
+ padding-top: 20px;
+ text-align: right;
+}
+
+.calculator{
+ width: 172px;
+ border: 1px solid black;
+  text-align: center;
+}
+
+.button{
+ border: 1px solid black;
+ width: 40px;
+ padding-top: 20px;
+}
+
+.button:hover{
+ background-color: lightgray;
+}

@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <form>
+            <input type="button" class="button" value="c" id="btn" onclick=" reset() ;">
+            <input type="text" class="screen" value="" id="screen">
+            <br>
+            <input type="button" class="button" value="7" id="btn" onclick=" vl(7)">
+            <input type="button" class="button" value="8" id="btn" onclick=" vl(8)">
+            <input type="button" class="button" value="9" id="btn" onclick=" vl(9)">
+            <input type="button" class="button" value="/" id="btn" onclick=" vl('/')">
+            <br>
+            <input type="button" class="button" value="4" id="btn" onclick=" vl(4)">
+            <input type="button" class="button" value="5" id="btn" onclick=" vl(5)">
+            <input type="button" class="button" value="6" id="btn" onclick=" vl(6)">
+            <input type="button" class="button" value="*" id="btn" onclick=" vl('*')">
+            <br>
+            <input type="button" class="button" value="1" id="btn" onclick=" vl(1)">
+            <input type="button" class="button" value="2" id="btn" onclick=" vl(2)">
+            <input type="button" class="button" value="3" id="btn" onclick=" vl(3)">
+            <input type="button" class="button" value="+" id="btn" onclick=" vl('+')">
+            <br>
+            <input type="button" class="button" value="." id="btn" onclick=" vl('.') ;">
+            <input type="button" class="button" value="0" id="btn" onclick=" vl(0); ">
+            <input type="button" class="button" value="=" id="btn" onclick=" solve('='); ">
+            <input type="button" class="button" value="-" id="btn" onclick=" vl('-'); ">
+        </form>
+    </div>
+
+</body>
+
+</html>
