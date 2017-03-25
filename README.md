@@ -15,13 +15,13 @@ You can download/clone this project and then open 'calculator.html' with a web b
 
 ### Running the tests
 The Calculator project can be tested via the following link
-```
+
 [http://immutablehues.com/works/calculator/](http://immutablehues.com/works/calculator/)
-```
+
+![Preview Image](/calculatorImage.JPG)
 
 ### Built With
 [Visual Studio 2013](https://msdn.microsoft.com/en-us/library/dd831853(v=vs.120).aspx) - using HTML, Javascript & CSS
-
 
 ### Authors
 Pedro Garboza
